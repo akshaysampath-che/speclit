@@ -1,4 +1,4 @@
-# Spectroscopy CSV/XLSX Multi-Series Analyzer
+# UV-Vis Spectroscopy Multi-Series Analyzer
 
 Streamlit app for spectroscopy analysis with one x-axis column (wavelength) and multiple independent y-series.
 
