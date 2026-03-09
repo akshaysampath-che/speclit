@@ -1,0 +1,2 @@
+# speclit
+Spectroscopy analyser
