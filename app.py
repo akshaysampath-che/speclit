@@ -1,5 +1,5 @@
 ﻿
-"""Streamlit app for spectroscopy CSV/XLSX analysis with multi-series support."""
+"""Speclit app for spectroscopy CSV/XLSX analysis with multi-series support."""
 
 from __future__ import annotations
 
@@ -2095,6 +2095,7 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
 
 
 
