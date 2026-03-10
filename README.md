@@ -138,10 +138,12 @@ Original scientific workflows remain intact:
 
 ## Installation
 ```powershell
-cd C:\Users\ASUS ZENBOOK\Documents\Playground
+git clone https://github.com/akshaysampath-che/speclit.git
+cd speclit
 python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m pip install --upgrade pip
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m streamlit run app.py
 ```
 
 ## How to Use
@@ -164,3 +166,4 @@ pip install -r requirements.txt
 - Invalid rows/series are skipped with warnings; missing values are not fabricated.
 - Actual font rendering depends on font availability in the runtime environment.
 - The UI warns when very small font sizes are selected and when many traces may reduce legend readability at small export widths.
+
