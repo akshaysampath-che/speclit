@@ -1,6 +1,6 @@
-﻿# Spectroscopy CSV/XLSX Multi-Series Analyzer
+﻿# Spectroscopy Multi-Series Analyzer
 
-Streamlit app for spectroscopy analysis with one wavelength x-axis column and multiple independent y-series.
+Speclit app for spectroscopy analysis.
 
 ## Overview
 This app is built for practical spectroscopy workflows where one file contains one wavelength column and multiple spectra (for example absorbance, reflectance, excitation, or PL traces). Each selected y-series is kept independent through plotting, analysis, and export.
@@ -166,4 +166,5 @@ python -m venv .venv
 - Invalid rows/series are skipped with warnings; missing values are not fabricated.
 - Actual font rendering depends on font availability in the runtime environment.
 - The UI warns when very small font sizes are selected and when many traces may reduce legend readability at small export widths.
+
 
